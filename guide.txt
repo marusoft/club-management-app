@@ -1,0 +1,21 @@
+user table
+prop:{
+  name
+  email
+  password
+  role admin/members
+}
+club table{
+  clubname
+  description
+  createdat
+  updatedat
+}
+
+Build a club management application with node/postgres.
+A club should have an admin
+The club admin should be able to send invites to enable members to join his club
+The club admin should also be able to remove members from his club
+A user should be enabled to create a club and invite members to the club.
+Members should also be able to join multiple clubs
+The application should include a line graph showing daily report to the admin of members that join his club.

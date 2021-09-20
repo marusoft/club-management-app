@@ -1,0 +1,51 @@
+{
+  "name": "club-management-app",
+  "version": "1.0.0",
+  "description": "club management app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon --exec babel-node ./backend/app.js",
+    "start": "babel-node ./backend/app.js",
+    "migrate": "babel-node ./backend/server/database/migrations"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marusoft/club-management-app.git"
+  },
+  "keywords": [
+    "node",
+    "postgres",
+    "express",
+    "react"
+  ],
+  "author": "alimi kehinde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marusoft/club-management-app/issues"
+  },
+  "homepage": "https://github.com/marusoft/club-management-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/register": "^7.15.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.25.2",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
