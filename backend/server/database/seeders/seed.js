@@ -3,7 +3,6 @@ import pool from '../db.connection';
 import Helper from '../../utilities/utils';
 
 dotenv.config();
-
 const password = process.env.PASSWORD;
 const hashedPassword = Helper.hashPassword(password);
 

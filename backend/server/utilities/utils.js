@@ -45,7 +45,7 @@ export default class Helper {
   /**
    * @method hashPassword
    * @param {string} password
-   * @returns {string} hash password
+   * @returns {string} hash passwordnp
    */
   static hashPassword(password) {
     return bcrypt.hashSync(password, salt);
