@@ -19,3 +19,7 @@ The club admin should also be able to remove members from his club
 A user should be enabled to create a club and invite members to the club.
 Members should also be able to join multiple clubs
 The application should include a line graph showing daily report to the admin of members that join his club.
+
+https://medium.com/swlh/how-to-develop-two-factor-email-authentication-using-nodejs-postgresql-and-nodemailer-7a29c3fa6472
+https://github.com/HilarieSit/ClubManage-backend/blob/master/docs/flowchart1.jpg
+https://blog.bitsrc.io/email-confirmation-with-react-257e5d9de725
