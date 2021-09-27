@@ -23,3 +23,6 @@ The application should include a line graph showing daily report to the admin of
 https://medium.com/swlh/how-to-develop-two-factor-email-authentication-using-nodejs-postgresql-and-nodemailer-7a29c3fa6472
 https://github.com/HilarieSit/ClubManage-backend/blob/master/docs/flowchart1.jpg
 https://blog.bitsrc.io/email-confirmation-with-react-257e5d9de725
+https://github.com/akshar07/invitation-system
+https://itnext.io/build-a-referral-system-in-node-express-and-postgres-da56fa4913d4
+https://dev.to/wojtekmaj/optimizing-react-app-hardcore-edition-2h1
